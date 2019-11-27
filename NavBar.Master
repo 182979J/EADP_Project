@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavBar.master.cs" Inherits="EADP_project_182979J.NavBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleSheet/SiteMasterStyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="SiteMasterStyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        .auto-style1 {
+            height: 74px;
+        }
+    </style>
+
+</head>
+<body>
+    
+        <div>
+            <header>
+                <nav>
+                    <div class="navBar">
+
+                        <ul class="auto-style1">
+                            <li class="homeeee"><a href="#">Singaplღre</a></li>
+                            <li class="dropdown navNav">
+
+                                <button class="dropbtn"><i class="glyphicon glyphicon-user" style="left: -7px; top: -1px; height: 17px; width: 17px"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Profile</a>
+                                    <a href="#">My wishlist</a>
+                                    <a href="#">My cart</a>
+                                    <a href="#">Help</a>
+                                    <a href="#">Planner</a>
+                                    <a href="#">Log Out</a>
+                                </div>
+                            </li>
+                            <li class="navNav"><a href="#">Packages</a></li>
+                            <li class="navNav"><a href="#">Tour Guide</a></li>
+                            <li class="navNav"><a href="#">Attraction</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+<%--            tourguide    <nav>
+                    <div class="navBar">
+
+                        <ul class="auto-style1">
+                            <li class="navNav">
+                            <li class="homeeee"><a href="#">Singaplღre</a></li>
+                            <li class="navNav"><a href="#">Log out</a></li>
+                            <li class="navNav"><a href="#">Profile</a></li>
+                            <li class="navNav"><a href="#">MessageBox</a></li>
+
+                            <li class="navNav"><a href="#">Precaution</a></li>
+                            <li class="navNav"><a href="#">Planner</a></li>
+                        </ul>
+                    </div>
+                </nav>--%>
+
+                       
+<%--    admin            <nav>
+                    <div class="navBar">
+
+                        <ul class="auto-style1">
+                            <li class="navNav">
+                            <li class="homeeee"><a href="#">Singaplღre</a></li>
+                            <li class="navNav"><a href="#">Log out</a></li>
+                            <li class="navNav"><a href="#">Precaution</a></li>
+                            <li class="navNav"><a href="#">Complaints</a></li>
+                            <li class="navNav"><a href="#">Attraction</a></li>
+                            <li class="navNav"><a href="#">Employment</a></li>
+
+                        </ul>
+                    </div>
+                </nav>--%>
+            </header>
+        </div>
+    
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+</html>
