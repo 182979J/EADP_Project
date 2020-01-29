@@ -1,0 +1,393 @@
+﻿body {
+}
+
+.TGButton {
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius:10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*application form*/
+.TGtitle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.ApplicationFormInsideTitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    width:100%;
+}
+.ApplicationFormUpload {
+    margin: 0 auto;
+    display: block;
+}
+.ApplicationFormSubTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+.ApplicationFormNavGroup{
+ list-style-type: none
+}
+.ApplicationFormNav {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ApplicationFormsidenav {
+   height:100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    overflow-x: hidden;
+    padding-top: 15%;
+}
+
+.ApplicationFormsidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+    .ApplicationFormsidenav a:hover {
+        color: #818181;
+    }
+#tbAccountNum {
+    display: inline-block;
+    margin: 0 30%;
+}
+#tbExpertise {
+    display: inline-block;
+    margin: 0 10%;
+}
+
+#tbWorkhowlong {
+    display: inline-block;
+    margin: 0 30%;
+}
+
+#ddlTypeBank {
+    display: inline-block;
+    margin: 0 35%;
+}
+#ApplicationFormRadioButton {
+    display: inline-block;
+    margin: 0 35%;
+}
+.buttonsDiv{
+    text-align:center;
+}
+.Buttonss {
+    text-align: center;
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    /*.applicationformrightcenter {
+    position: relative;
+    width: 75%;
+    height: 100%;
+}*/
+
+
+/*#dvPreview {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+    min-height: 400px;
+    min-width: 400px;
+    display: none;
+}*/
+
+
+
+    /*Job*/
+.jobtable {
+    border: 1px solid black;
+    color:black;
+    align-content:center;
+    text-align:center;
+    
+}
+    .jobtable tr:nth-child(even) {
+        background-color: rgb(255, 161, 175);
+    }
+
+.jobtable tr:hover {
+    background-color: #ddd;
+}
+
+.jobtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: red;
+    color: white;
+    text-align:center;
+    min-width:250px;
+}
+
+/*job details*/
+.jobinfo{
+    text-align:center;
+    width:100%;
+    font-weight:bold;
+    font-size:34px;
+}
+.jobinfoAns {
+    text-align: center;
+    width: 100%;
+}
+
+.jobinfoT {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 34px;
+}
+.jobDetailsButton {
+    text-align: center;
+    
+}
+.jobbutton {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.touristPicAtJobDetails{
+    width:450px;
+    height:450px;
+}
+#formjobdetail {
+    background-color: rgb(255, 161, 175);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+    border: 6px solid crimson;
+}
+
+/*OTP*/
+#formOTP {
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(255, 161, 175);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+    border: 6px solid crimson;
+}
+#tbOTP {
+    display: inline-block;
+    margin: 0 30%;
+}
+.OTPbutton {
+    text-align: center;
+    
+}
+
+/*Signup as tour guide form*/
+#ApplyForm {
+    /*margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 161, 175, 0.3);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+    border: 6px solid crimson;
+    /*border: 2px solid black;*/
+    float: right;*/
+}
+#tbMobile {
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    padding:3px;
+}
+#tbEmail {
+    padding: 3px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+#tbFirstName {
+    padding: 3px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+#tbLastName {
+    padding: 3px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+
+
+/*Add precaution*/
+#AddPrecautionForm {
+    background-color: rgb(255, 161, 175);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+    border: 6px solid crimson;
+}
+.AddPrecautionbutton {
+    text-align: center;
+   
+}
+.imageOnAddPrecaution{
+    width:400px;
+    height:400px;
+}
+
+/*Precaution display*/
+.precautiondisplaydropdown{
+    width:50%;
+}
+
+/*Employee Side Precaution*/
+.PrecautionAdd {
+    text-align: center;
+}
+
+/*Profile*/
+.ProfilePPic {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ProfileCertPic {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rate {
+    text-align: center;
+    height: 46px;
+    padding: 0 10px;
+}
+
+    .rate:not(:checked) > input {
+        position: absolute;
+        top: -9999px;
+    }
+
+    .rate:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 40px;
+        color: #ccc;
+    }
+
+        .rate:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .rate > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .rate:not(:checked) > label:hover,
+    .rate:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .rate > input:checked + label:hover,
+    .rate > input:checked + label:hover ~ label,
+    .rate > input:checked ~ label:hover,
+    .rate > input:checked ~ label:hover ~ label,
+    .rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+.ProfileReviewPic {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ProfileReviewName{
+    text-align:center;
+}
+.ProfileReviewTable {
+    width: 70%;
+    border: 1px solid red;
+    color: black;
+    align-content: center;
+    text-align: center;
+    background-color:pink;
+}
+.ProfileTGInfo {
+    border: 5px solid red;
+    color: black;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+  
+}
+
+/*Message*/
+.MessageTopPics{
+    width:40px;
+    height:40px;
+}
+.TGButtonsend {
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

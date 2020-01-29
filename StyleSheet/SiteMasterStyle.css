@@ -1,15 +1,14 @@
-﻿ul {
+﻿ul.auto-style1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(220,20,60);
-    
 }
 
-.auto-style1{
-
-width:100%;}
+.auto-style1 {
+    width: 100%;
+}
 
 .homeeee {
     float: left;
@@ -18,25 +17,25 @@ width:100%;}
     text-shadow: 3px 2px grey;
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    .navNav a hover{
-background-color: lightpink;
-    }
+.navNav a hover {
+    background-color: lightpink;
+}
 
-        /* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover */
 
 
 
-.navNav{
-    float:right;
-    font-size:20px;
+.navNav {
+    float: right;
+    font-size: 20px;
 }
 
 .dropdown {
@@ -55,7 +54,7 @@ background-color: lightpink;
         margin: 0;
     }
 
-.dropdown:hover .dropbtn {
+    .dropdown:hover .dropbtn {
         background-color: red;
     }
 
